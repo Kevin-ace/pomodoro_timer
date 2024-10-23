@@ -1,0 +1,65 @@
+/* styles/PomodoroTimer.css */
+
+/* Timer Container Styles */
+.pomodoro-container {
+    @apply min-h-screen bg-gray-100 flex items-center justify-center;
+  }
+  
+  .timer-card {
+    @apply bg-white p-8 rounded-lg shadow-lg w-96;
+  }
+  
+  /* Timer Display Styles */
+  .timer-title {
+    @apply text-3xl font-bold mb-4 text-gray-800;
+  }
+  
+  .timer-display {
+    @apply text-6xl font-bold mb-8 text-gray-700;
+  }
+  
+  /* Control Button Styles */
+  .controls-container {
+    @apply flex justify-center space-x-4 mb-8;
+  }
+  
+  .control-button {
+    @apply p-3 rounded-full transition-colors;
+  }
+  
+  .play-button {
+    @apply bg-blue-500 hover:bg-blue-600 text-white;
+  }
+  
+  .secondary-button {
+    @apply bg-gray-200 hover:bg-gray-300 text-gray-700;
+  }
+  
+  /* Settings Panel Styles */
+  .settings-panel {
+    @apply border-t pt-4;
+  }
+  
+  .settings-title {
+    @apply text-lg font-semibold mb-4;
+  }
+  
+  .settings-form {
+    @apply space-y-4;
+  }
+  
+  .input-group {
+    @apply mt-1 block w-full;
+  }
+  
+  .input-label {
+    @apply block text-sm font-medium text-gray-700;
+  }
+  
+  .time-input {
+    @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2;
+  }
+  
+  .save-button {
+    @apply w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition-colors;
+  }
